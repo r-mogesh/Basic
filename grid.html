@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+</head>
+<body>
+    <style>
+        .container{
+            background-color: #da7f25;
+            width: 100vw;
+            height: 100vh;
+            color: #333;
+        }
+        .grid{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-columns: repeat(4, 1fr);
+            grid-row-gap: 20px;
+            grid-column-gap: 20px;
+        }
+        .box{
+            background-color: #fff;
+            border: 2px solid #333;
+            padding: 1rem;
+        }
+    </style>
+    
+    <div class="container"> 
+
+    <div class="grid">
+    <div class="box grid"><div class="box">hello</div></div>
+    <div class="box">world</div>
+    <div class="box">eveyone</div>
+    <div class="box">understand</div>
+     <div class="box">good morning</div>
+      <div class="box"> morning</div>
+      <div class="box">python</div>
+    </div>
+       <div class="grid">
+       </div>
+       </div>
+</body>
+</html>
