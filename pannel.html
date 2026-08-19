@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pannel</title>
+</head>
+<body>
+    <style>
+        ol{
+            list-style-type: none;
+            padding: 0%;
+            margin: 0%;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        .left-pannel{
+            position: fixed;
+            top: 0%;
+            left: 0%;
+            width: 20vw;
+            height: 100vh;
+            background-color: silver;
+            padding: 20px;
+            overflow: auto;
+        }
+        .right-pannel{
+            position: fixed;
+            top: 0;
+            left: 20%;
+            width: 80vw;
+            height: 100vh;
+            background-color: #e61010;
+            padding: 20px;
+        }
+    </style>
+    <div class="left-pannel">
+        <ol>
+            <li><a href="container.html" target="mainframe">container</a></li>
+            <li><a href="grid.html" target="mainframe">grid</a></li> 
+        </ol>
+</div>
+
+<div class="right-pannel">
+    <iframe src="" frameborder="0" name="mainframe" width="100%" height="100%"></iframe>
+</div>
+</body>
+</html>
